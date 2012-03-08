@@ -21,14 +21,14 @@ bin/cornac -I <ini>
 
 4) When cornac says 'Done' : 
  a) go in your destination directory, HTML version will be there, starting with index.html
- b) link (ln -s) you web root to the 'web' directory in cornac, and then,
+ b) link (ln -s) your web root to the 'web' directory in cornac, and then,
     point your browser to the good path (http://localhost/web) : 
     All should be there
  c) Run bin/inventory -I <ini> and open the resulting .ods with Open Office
  
  
 May be of interest :
-+ scripts/tag/tags.php : a way to tags comments in the code
++ scripts/tag/tags.php : a way to tag comments in the code
 + scripts/file2png.php : a way to represent file system as PNG file
 
 Current version is DEV. 
